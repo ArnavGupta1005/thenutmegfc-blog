@@ -148,3 +148,38 @@ main .written ul {
   font-size: 1em;
   margin-top: 10px; /* Space between author/date and comment text */
 }
+/* Styling for the overall comments section container */
+.comments-section {
+    max-width: 800px; /* Adjust as needed to match your blog's content width */
+    margin: 40px auto; /* Adds some vertical space and centers it */
+    padding: 20px;
+    border-top: 1px solid #eee; /* A subtle line to separate from content */
+    /* Add any other general styling like background-color, border-radius etc. */
+}
+
+/* Styling for the comments section heading */
+.comments-section h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    color: #333; /* Darker color for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd; /* A line under the heading */
+}
+
+/* Giscus will inject its content into #giscus-comments-container */
+/* You typically don't need much CSS for this specific ID as Giscus handles its content */
+#giscus-comments-container {
+    /* You might add some padding if you want Giscus to be slightly inset */
+    padding: 10px 0;
+}
+
+/* Example of optional Giscus override (use with caution as it can break Giscus's UI) */
+/* If you need to deeply customize Giscus's appearance, you'd inspect its elements
+   and apply more specific CSS rules. This is generally not recommended unless
+   you know exactly what you're doing. Stick to the themes if possible. */
+/*
+giscus-widget {
+    border: 1px solid red !important;
+}
+*/
