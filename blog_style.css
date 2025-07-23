@@ -1,0 +1,150 @@
+main {
+  text-align: left;
+  padding: 0;
+  margin: 0px 200px 100px 200px;
+}
+
+main .blog-title .blog-title-line {
+  font-size: 50px;
+}
+main .blog-title .blog-short-description {
+  font-size: 17px;
+  color: rgb(58, 56, 56);
+  margin-top: 15px;
+}
+main .blog-title .author {
+  margin: 0;
+}
+main .blog-title .social-media {
+  margin-top: 20px;
+}
+main .blog-title .social-media i {
+  font-size: 13px;
+  margin-right: 30px;
+}
+main .blog-title .social-media a i {
+  font-size: 28px;
+  transition: all 0.3s;
+}
+main .blog-title .social-media a i:hover {
+  color: rgb(180, 41, 41);
+  transition: all 0.3s;
+}
+main .blog-title #blog-title-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+main .written h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+main .written p {
+  font-size: 20px;
+  color: #1e1e1e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .written ul {
+  font-size: 20px;
+}
+.bold {
+  font-weight: 700;
+}
+#trending {
+  margin: 100px 100px 100px 100px;
+}
+/* --- Comment Section Styling --- */
+.comments-section {
+  background-color: #f9f9f9; /* Light background for the whole section */
+  padding: 30px;
+  margin-top: 50px; /* Space above the comment section */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  margin-bottom: 50px; /* Space below the comment section */
+}
+
+.comments-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2em; /* Larger heading for the section */
+  color: #333; /* Darker text for heading */
+}
+
+/* Styling for the comment submission form */
+.comment-form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* Light border */
+  margin-bottom: 30px; /* Space between form and existing comments */
+}
+
+.comment-form h3 {
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 20px;
+  font-size: 1.6em; /* Heading for "Leave a Comment" */
+  color: #555;
+}
+
+.comment-form .text-input {
+  margin-bottom: 15px; /* Space between input fields */
+  padding: 12px;
+  border: 1px solid #ccc; /* Standard border */
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%; /* Make input fields take full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.comment-form .btn {
+  width: auto; /* Allow button to shrink-wrap its content */
+  padding: 10px 25px;
+  font-size: 1.1em;
+  background-color: rgb(180, 41, 41); /* Your blog's theme color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.comment-form .btn:hover {
+  background-color: rgb(150, 30, 30); /* Darker shade on hover */
+}
+
+/* Styling for individual comments */
+.existing-comments .comment {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #eee; /* Lighter border for individual comments */
+  margin-bottom: 20px; /* Space between comments */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.03); /* Very subtle shadow */
+}
+
+.existing-comments .comment:last-child {
+  margin-bottom: 0; /* No bottom margin for the last comment */
+}
+
+.comment-author {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.comment-author span {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #777; /* Lighter color for date/time */
+  margin-left: 10px;
+}
+
+.comment-text {
+  color: #555;
+  line-height: 1.6; /* Better readability */
+  font-size: 1em;
+  margin-top: 10px; /* Space between author/date and comment text */
+}
