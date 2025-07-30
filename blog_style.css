@@ -54,7 +54,7 @@ main .written ul {
   font-weight: 700;
 }
 #trending {
-  margin: 100px 100px 0px 100px;
+  margin: 100px 100px 100px 100px;
 }
 /* --- Comment Section Styling --- */
 .comments-section {
@@ -181,3 +181,18 @@ giscus-widget {
     border: 1px solid red !important;
 }
 */
+.blog-image {
+  height: 700px;
+  width: auto;
+}
+
+@media (max-width: 865px) {
+  main,
+  .comments-section,
+  #trending {
+    margin: 0px 0px 0px 0px;
+  }
+  #trending {
+    margin-bottom: 50px;
+  }
+}

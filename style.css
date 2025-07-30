@@ -357,6 +357,10 @@ header ul li ul li a:hover {
 .footer-headings {
   color: white;
 }
+#about-us {
+  margin-top: 100px;
+  font-size: 80px;
+}
 @media (max-width: 904px) {
   header {
     background: rgb(180, 41, 41);
@@ -421,5 +425,43 @@ header ul li ul li a:hover {
   .nav li ul.dropdown {
     position: static;
     background: rgb(160, 30, 30);
+  }
+  .sidebar {
+    display: none;
+  }
+  .content .main-content {
+    width: 100%;
+    float: none;
+  }
+  .post-slider .post-wrapper .post {
+    height: 360px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .post-slider .post-wrapper .post .post-info {
+    height: 160px;
+  }
+  .post-slider .post-wrapper .post .post-info h2 {
+    margin-bottom: 20px;
+  }
+  .post-slider .post-wrapper .post .slider-image {
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .links,
+  .contact-form {
+    display: none;
+  }
+  h1,
+  h2,
+  h4,
+  h5,
+  h6 {
+    font-size: 24px !important;
+  }
+  p,
+  li,
+  a {
+    font-size: 14px !important;
   }
 }
